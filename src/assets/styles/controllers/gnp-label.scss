@@ -1,0 +1,27 @@
+.gnp-label{
+	color		: $color-blue;
+	font-size	: $fonts-17;
+	font-family	: $avenir;
+	height 		: 40px;
+   	padding-Top 	: 7px !important;
+}
+.gnp-label-title{
+	color		: $color-title  ;
+	font-size	: $fonts-14;
+	font-family	: $avenir;
+}
+
+.overflow-ellipsis {
+    text-overflow: ellipsis;
+}
+
+p {
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+.container-label {
+    width : 100%;
+    margin : 10px;
+    cursor: context-menu;
+}

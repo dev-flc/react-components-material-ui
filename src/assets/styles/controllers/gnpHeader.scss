@@ -1,0 +1,127 @@
+.font-avenir{
+    font-family: $avenir!important;
+}
+
+.logo-gnp-img{
+    height:              44px;
+    width:               115px;
+    margin:              0 auto;
+    background-image:    url('#{$url-img}gnpLogo.svg');
+    background-repeat:   no-repeat;
+    background-size:     contain;
+    background-position: center;
+}
+
+.main-container-header{
+    display:            block;
+    width:              100%;
+    height:             auto;
+    min-height:         130px;
+    color:              $color-blue;
+    background-color:   $color-header-gray;
+}
+
+.container-img{
+    display:      flex;
+    align-items:  center;
+    float:        left;
+    width:        20%;
+    height:       129px;
+    color:        $color-blue;
+    border-right: 1px solid $color-border-gray;
+}
+
+.container-header-elements{
+    display:      flex;
+    align-items:  center;
+    float:        left;
+    width:        78%;
+    height:       129px;
+    color:        $color-blue;
+}
+
+.container-title-login{
+    display: inline-block;
+    width:   100%;
+}
+
+.title-header{
+    font-family:  $avenir!important;
+    font-size:    $fonts-20;
+    padding-left: 35px;
+}
+
+.container-button{
+    display:     inline-block;
+    align-items: center;
+}
+
+.button-help{
+    width:    48px;
+    height:   48px;
+}
+
+//Estilos de la ventana modal
+.main-container-modal{
+    font-family: $avenir !important;
+    font-size:   $fonts-14 !important;
+    width:       300px;
+    margin:      0 auto;
+  }
+
+
+.container-modal-title{
+    color:      $color-blue-general !important;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.text-modal-title{
+    display: inline-block;
+}
+
+.modal-icons{
+    display: inline-block;
+    margin:  10px;
+  }
+
+.divider-line{
+    width: 300px;
+}
+
+.container-icon-text-mail, .container-icon-text-clock{
+    color:         $color-blue-general;
+    margin-bottom: 20px;
+    margin-top:    20px;
+    display:       flex;
+    align-items:   center;
+}
+
+.container-title-succesful{
+    display: inline-block;
+    width:   70%;
+}
+
+.container-icon-text-general{
+    color:         $color-blue-general;
+    margin-bottom: 5px;
+    margin-top:    5px;
+    display:       flex;
+    align-items:   center;
+}
+
+.divider-icon-text{
+    border-left: 1px solid $color-border-gray;
+    width: 1px;
+    margin-right: 20px;
+    color: $color-header-gray;
+  }
+
+.container-user{
+    padding-right: 25px;
+}
+
+.inline-items{
+    display: flex;
+    align-items: center;
+}

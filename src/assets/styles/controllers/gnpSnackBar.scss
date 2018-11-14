@@ -1,0 +1,80 @@
+.container-snackbar {
+    visibility       : hidden;
+    position         : fixed;
+    width            : 300px;
+    margin           : 0 auto;
+    font-family      : $avenir;
+    background-color : $color-white;
+    color            : $color-title;
+    border-radius    : 2px;
+    border           : 1px solid $color-border-gray;
+    z-index          : 1;
+    bottom           : 10px;
+    margin-left      : auto;
+    margin-right     : auto;
+    left             : 0;
+    right            : 0;
+    box-shadow       : rgba(0, 0, 0, 0.25) 0px 11px 45px, rgba(0, 0, 0, 0.22) 0px 10px 18px;
+}
+.snackbar-header{
+    display      : flex;
+    align-items  : center;
+    padding-left : 5px;
+    margin-top   : 5px;
+}
+.snackbar-title-image{
+    display      : inline-block;
+    margin-right : 5px;
+}
+.snackbar-title-text{
+    display   : inline-block;
+    color     : $color-red;
+    font-size : 12px;
+}
+.snackbar-body-message{
+    height     : auto;
+    max-height : 100px;
+    padding    : 10px;
+    font-size  : 14px;
+}
+.snackbar-footer{
+    height           : 30px;
+    background-color : $color-border-gray;
+    font-size        : $fonts-16;
+}
+.snackbar-button-close{
+    float        : right;
+    margin-right : 10px;
+    padding      : 5px;
+}
+
+.container-snackbar.show {
+    visibility        : visible;
+    -webkit-animation : fadein .75s;
+    animation         : fadein .75s;
+}
+
+.container-snackbar.hide {
+    -webkit-animation : fadeout 2.75s;
+    animation         : fadeout 2.75s;
+}
+
+@-webkit-keyframes fadein {
+    from { bottom: 0; opacity: 0; }
+    to   { bottom: 10px; opacity: 1; }
+}
+
+@keyframes fadein {
+    from { bottom: 0; opacity: 0; }
+    to   { bottom: 10px; opacity: 1; }
+}
+
+@-webkit-keyframes fadeout {
+    from  { bottom: 10px; opacity: 1; }
+    to    { bottom: 0; opacity: 0; }
+}
+
+@keyframes fadeout {
+    from { bottom: 10px; opacity: 1; }
+    to   { bottom: 0; opacity: 0; }
+}

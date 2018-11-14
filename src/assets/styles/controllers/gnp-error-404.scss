@@ -1,0 +1,52 @@
+.error-404 {
+    position : absolute;
+    margin   : auto;
+    top      : 0;
+    right    : 0;
+    bottom   : 0;
+    left     : 0;
+    width    : 50%;
+    height   : 300px;
+}
+
+.error-404 > a {
+    text-decoration : none;
+}
+
+.error-404 > a > {
+    font-weight : bold;
+    text-align  : center;
+    color       : $color-gray;
+}
+
+.error-404-title {
+    font-size   : 30px;
+    text-align  : center;
+    color       : $color-gray;
+    font-family : 'Avenir-Book';
+}
+
+.error-404-sub-title {
+    font-size   : 18px;
+    text-align  : center;
+    color       : $color-gray;
+    font-family : 'Avenir-Book';
+}
+
+.error-404-link {
+    margin      : 0px;
+    text-align  : center;
+    color       : $color-blue-light;
+    font-family : 'Avenir-Book';
+    text-decoration : underline $color-blue-light;
+}
+
+.error-404-link:hover {
+    text-decoration : underline $color-blue-light;
+    color           : $color-blue-light;
+}
+
+.error-404-img {
+    position : relative;
+    width    : 100%;
+}

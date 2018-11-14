@@ -1,0 +1,66 @@
+.gnp-loading,
+.gnp-loading .logo {
+    width: 100px;
+    height: 100px
+}
+
+.gnp-loading,
+.gnp-loading .logo img {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute
+}
+
+.gnp-loading .logo {
+    position: absolute;
+    border-radius: 50%;
+    background-color: transparent
+}
+
+.gnp-loading .logo img {
+    width: 70px;
+    height: 50px
+}
+
+.gnp-loading .circle-orange {
+    border-left: 4px solid $color-orange;
+    background-color: transparent;
+    animation: rotate 1.2s linear 0s infinite
+}
+
+.gnp-loading .circle-blue {
+    border-left: 4px solid $color-blue;
+    background-color: transparent;
+    animation: rotate .8s linear 0s infinite
+}
+
+.gnp-loading .circle-blue,
+.gnp-loading .circle-orange {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0) scale(1)
+    }
+    50% {
+        transform: rotate(180deg) scale(1.2)
+    }
+    to {
+        transform: rotate(1turn) scale(1)
+    }
+}
+
+.loading {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: hsla(0, 0%, 100%, .35);
+    z-index: 9999
+}

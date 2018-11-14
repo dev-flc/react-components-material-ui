@@ -1,0 +1,52 @@
+.img-stepper-cotizacion-in{
+    background-image: url('#{$url-img}cotizacionIn.svg');
+    @include background-stepper();
+}
+
+.img-stepper-cotizacion-out{
+    background-image: url('#{$url-img}cotizacionOut.svg');
+    @include background-stepper();
+}
+
+.img-stepper-elige-in{
+    background-image: url('#{$url-img}eligeIn.svg');
+    @include background-stepper();
+}
+
+.img-stepper-elige-out{
+    background-image: url('#{$url-img}eligeOut.svg');
+    @include background-stepper();
+}
+
+.img-stepper-contratacion-in{
+    background-image: url('#{$url-img}contrataIn.svg');
+    @include background-stepper();
+}
+
+.img-stepper-contratacion-out{
+    background-image: url('#{$url-img}contrataOut.svg');
+    @include background-stepper();
+}
+
+.img-stepper-confirma-in{
+    background-image: url('#{$url-img}confirmaIn.svg');
+    @include background-stepper();
+}
+
+.img-stepper-confirma-out{
+    background-image: url('#{$url-img}confirmaOut.svg');
+    @include background-stepper();
+}
+
+.container-stepper {
+    display : block;
+    margin  : auto;
+    width   : 500px;
+    height  : 92px;
+  }
+
+.icon-stepper{
+    padding-left  : 0px !important;
+    padding-right : 0px !important;
+    text-align    : center;
+  }

@@ -1,0 +1,28 @@
+/*Estilos de ejemplo */
+.contenedor-titulos{
+    padding-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.contenedor-principal{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.contenedor-hijo{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.contenido-modal{
+    vertical-align: inherit;
+    white-space: pre-line;
+    word-wrap: break-word;
+    font-family: 'Avenir-Book';
+    color: #072E58;
+    line-height: 25px;
+    font-size: $fonts-16;
+}
+.modal-text-center{
+    text-align: center
+}

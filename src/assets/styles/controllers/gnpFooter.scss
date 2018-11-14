@@ -1,0 +1,51 @@
+.footer-container {
+   background-color : $color-body;
+}
+
+.footer-container > .container-notice-of-privacy {
+    width       : 100%;
+    padding-top : 7px;
+    text-align  : center;
+    color       : $color-blue;
+    font-size   : $fonts-15;
+    font-family : $avenir;
+}
+
+.container-notice-of-privacy > span {
+    textDecoration : 'underline';
+    color          : $color-blue;
+}
+
+.container-slogan {
+    height     : 138px;
+    background : $color-blue-general;
+    background : linear-gradient(to right, $color-blue-general , $color-darkblue);
+}
+
+.container-slogan > .slogan{
+    height      : 100%;
+    display     : flex;
+    align-items : center;
+}
+
+.slogan > .slogan-img {
+    height : 24px;
+    width  : 200px;
+    margin : 0 auto;
+    background-image    : url('#{$url-img}gnpSlogan.svg');
+    background-repeat   : no-repeat;
+    background-size     : contain;
+    background-position : center;
+}
+
+.no-gutters{
+    margin-left  : 0;
+    margin-right : 0;
+}
+
+.row.no-gutters > [class^="col-"],
+
+.row.no-gutters > [class*=" col-"] {
+    padding-right : 0;
+    padding-left  : 0;
+}

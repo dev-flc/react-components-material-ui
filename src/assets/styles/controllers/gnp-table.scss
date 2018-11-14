@@ -1,0 +1,107 @@
+.body-table-row {
+    font-family : $avenir !important;
+    font-size   : $fonts-14 !important;
+    color       : $color-black-light !important;
+}
+
+.header-table{
+    font-family : $avenir !important;
+    font-size   : $fonts-14 !important;
+    color       : $color-blue !important;
+}
+
+.header-center-text{
+    display     : flex;
+    align-items : center;
+  }
+
+.header-icon-column {
+    float : left;
+}
+
+.header-icon-space{
+    padding-left: 5px;
+}
+
+.logoPaginadorBtnPaginadorConsulta{
+    width:12px;
+    height:12px;
+    background-image: url('#{$url-img}controlIzquierdo.svg');
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-size: contain;
+    background-position: center;
+    margin-top: 12px;
+  }
+
+  .logoPaginadorBtnPaginador2Consulta {
+    width:12px;
+    height:12px;
+    background-image: url('#{$url-img}flechaIzqPaginadorMovil.svg');
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-size: contain;
+    background-position: center;
+    margin-top: 12px;
+  }
+
+  .logoPaginadorBtnPaginador5Consulta{
+    width:12px;
+    height:12px;
+    background-image: url('#{$url-img}flechaDerPaginadorMovil.svg');
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-size: contain;
+    background-position: center;
+    margin-top: 12px;
+  }
+
+  .logoPaginadorBtnPaginador6Consulta{
+    width:12px;
+    height:12px;
+    background-image: url('#{$url-img}controlDerecha.svg');
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-size: contain;
+    background-position: center;
+    margin-top: 12px;
+  }
+
+  .pageInput{
+    display:inline-block;
+    padding-top:-10px;
+    vertical-align:bottom !important;
+  }
+
+  .pageInput input{
+    width:36px;
+    height:36px;
+    text-align:center;
+    padding-top:1px;
+    vertical-align : bottom !important;
+    padding-top : 100px;
+    font-family : $avenir;
+    font-size   : $fonts-14 !important;
+  }
+
+  .separatorPages{
+    display:inline-block;
+    height: 36px;
+    width: auto;
+    text-align: center;
+  }
+  .totalPages{
+    display:inline-block;
+    height: 36px;
+    width: auto;
+    margin-right:10px;
+    text-align: center;
+  }
+  .totalPages label,.separatorPages label{
+    padding-top : 6px;
+    vertical-align:text-top;
+    text-align  : center;
+    font-family : $avenir;
+    font-size   : $fonts-14;
+  }
+

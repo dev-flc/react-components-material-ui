@@ -1,0 +1,221 @@
+* {
+    box-sizing : border-box;
+}
+
+/* stilo etiqueta body */
+body {
+    padding : 0;
+    margin  : 0;
+    font-family : $avenir;
+}
+
+/* contenedos de todas las vistas */
+.container-all-screen {
+    display          : block;
+    width            : 100%;
+    height           : auto;
+    background-color : $color-body;
+}
+
+/* titulos o subtitulos */
+.title-azul-24 {
+    @include title-color-size();
+}
+
+.text-black-14 {
+    @include title-color-size( $color-dark-black, $fonts-14 );
+}
+
+.text-blue-14 {
+    @include title-color-size($color-blue, $fonts-14 );
+}
+
+.text-blue-15 {
+    @include title-color-size($color-blue, $fonts-15 );
+}
+
+.title-blue-13 {
+    @include title-color-size( $color-blue  , $fonts-13 );
+}
+
+.title-black-12 {
+    @include title-color-size( $color-title, $fonts-12 );
+}
+
+.title-gray-13 {
+    @include title-color-size( $color-gray-light, $fonts-13 );
+}
+
+.title-module-24 {
+    @include title-color-size( $color-title, $fonts-24 );
+}
+
+.title-section-18 {
+    position : relative;
+    right    : -1px;
+    top      : 9px;
+    @include title-color-size( $color-title, $fonts-18 );
+}
+
+.title-subsection-16 {
+    position : relative;
+    right    : -1px;
+    top      : 6px;
+    @include title-color-size( $color-title, $fonts-16 );
+}
+
+/* espacios */
+.space-25{
+    height : 25px;
+    width  : 100%;
+}
+.space-20{
+    height : 10px;
+    width  : 100%;
+}
+
+.flex-row-justify{
+    display: flex;
+    flex-direction : row;
+    justify-content: space-between;
+}
+
+.flex-row-center-button{
+    display: flex;
+    flex-direction : row;
+    justify-content: center;
+}
+
+.flex-row-hotel{
+    display: flex;
+    flex-direction : row;
+    justify-content: space-between;
+    height: 0px;
+    overflow: auto;
+    transition: height .4s;
+}
+
+.show{
+    height: 101px;
+    margin-bottom: 25px;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction : row;
+}
+
+.flex-row-center{
+    display: flex;
+    flex-direction : row-reverse;
+    justify-content: center;
+}
+
+.MuiInput-input-35:hover:after{
+    border-bottom: 5px solid red !important;
+}
+
+.container-combo-zindex{
+    z-index: 4;
+    position: relative;
+}
+
+.container-combo-zindex-one{
+    z-index: 3;
+    position: relative;
+}
+
+.container-combo-zindex-two{
+    z-index: 2;
+    position: relative;
+}
+
+.container-combo-zindex-three{
+    z-index: 1;
+    position: relative;
+}
+
+.clear {
+    clear: both;
+}
+
+.asterisco-red{
+     color: $color-red;
+}
+
+.title-for-section-container{
+    position: relative;
+    display: flex;
+    flex-direction: initial;
+    align-content: center;
+    left: -20px;
+}
+
+.title-for-section-icon{
+    width  : 32px !important;
+    height : 32px !important;
+}
+
+.title-for-subsection-container{
+    position: relative;
+    display: flex;
+    flex-direction: initial;
+    align-content: center;
+}
+
+.title-for-subsection-icon{
+    width  : 25px !important;
+    height : 25px !important;
+}
+
+.title-for-subsection-icon-size{
+    width  : 16px !important;
+    height : 16px !important;
+}
+
+
+@keyframes progress {
+    0% {
+        background-position: -200px 0;
+    }
+    100% {
+        background-position: calc(200px + 100%) 0;
+    }
+}
+
+@-moz-keyframes progress {
+    0% {
+        background-position: -200px 0;
+    }
+    100% {
+        background-position: calc(200px + 100%) 0;
+    }
+}
+
+@-webkit-keyframes progress {
+    0% {
+        background-position: -200px 0;
+    }
+    100% {
+        background-position: calc(200px + 100%) 0;
+    }
+}
+
+
+.pruebaskeleton{
+    animation         : progress 1.2s ease-in-out infinite;
+    background-color  : #F4F6F7;
+    background-image  : linear-gradient(90deg, #F4F6F7, #efefef, #F4F6F7);
+    background-size   : 200px 100%;
+    background-repeat : no-repeat;
+    border-radius     : 4px;
+    position          : relative;
+    margin            : 3px;
+}
+.fer {
+    width : 65%;
+}
+.np-format-coin {
+    text-align : center;
+    z-index: 99;
+}

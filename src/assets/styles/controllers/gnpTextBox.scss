@@ -1,0 +1,63 @@
+.gnp-text-box-font-14 {
+    font-family : $avenir;
+    font-size   : $fonts-14;
+    color       : $color-title ;
+}
+.gnp-person-color-font-14 {
+    font-family : $avenir;
+    font-size   : $fonts-14;
+    color       : #fd7e14;
+}
+.gnp-text-box-font-17 {
+    font-family : $avenir;
+    font-size   : $fonts-17;
+}
+.gnp-title-font-17 {
+    font-family : $avenir;
+    font-size   : $fonts-17;
+    color       :#1f3f79;
+}
+
+.padding-error-label{
+    padding-top: 3px;
+}
+
+.texbox-error-label {
+  float : left;
+  color : $color-red;
+  font-family : $avenir;
+  font-size   : $fonts-12;
+}
+
+.container-textbox {
+    width : 100%;
+    margin : 10px;
+    max-width: 31%;
+    cursor: context-menu;
+}
+
+.container-textbox-multi {
+    width : 100%;
+    margin : 10px;
+    max-width: 62%;
+    cursor: context-menu;
+}
+.container-textbox-generate {
+    position: relative;
+    width : 100%;
+    max-width: 90%;
+    cursor: context-menu;
+    left : 25px;
+}
+
+.container-textbox-segurity {
+    width : 100%;
+    margin : 10px;
+}
+.line-search{
+    top:22px;
+
+}
+.hide-textbox{
+    display: none;
+}

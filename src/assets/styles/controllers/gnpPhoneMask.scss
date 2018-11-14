@@ -1,0 +1,15 @@
+.phoneMask-line-color:after{
+    border-bottom: 2px solid $color-orange-light !important;
+}
+
+.phoneMask-line-color:before {
+    border-bottom: 1px solid $color-gray-light  !important;
+}
+
+.phoneMask-line-color-error:after{
+    border-bottom: 2px solid $color-red !important;
+}
+
+.phoneMask-line-color-error:before {
+    border-bottom: 1px solid $color-red !important;
+}

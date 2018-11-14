@@ -1,0 +1,42 @@
+.contatiner-messages{
+    margin-top: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: initial;
+    align-content: center;
+    padding-left: 5px;
+}
+
+.text-message {
+    position    : relative;
+    color       : $color-blue;
+    font-size   : $fonts-15;
+    font-family : $avenir;
+    padding-left: 10px;
+    text-align  : justify;
+    padding-top : 3px;
+}
+
+.containers-message-single {
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.icon-messages {
+    width: 25px !important;
+    height: 25px !important;
+    color : $color-orange
+}
+
+.container-icon-text {
+    position: relative;
+    display: flex;
+    flex-direction: initial;
+    align-content: center;
+}
+
+.hide-message{
+    display: none
+}

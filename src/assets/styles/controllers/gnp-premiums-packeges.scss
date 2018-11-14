@@ -1,0 +1,137 @@
+.containers-premiums-packeges {
+    position       : relative;
+    display        : flex;
+    flex-direction : initial;
+    align-content  : center;
+}
+
+.containers-premiums-packeges-single {
+    width           : 50%;
+    max-width       : 32%;
+    align-content   : center;
+    justify-content : center;
+}
+
+.container-premiums-line {
+    position        : relative;
+    display         : flex;
+    flex-direction  : column;
+    justify-content : center;
+    align-content   : center;
+    width           : 35%;
+    border-bottom   : 1px solid $color-border-gray;
+}
+
+.container-premiums {
+    position        : relative;
+    display         : flex;
+    flex-direction  : column;
+    justify-content : center;
+    align-content   : center;
+    width           : 35%;
+}
+.checbox-premiums {
+    position        : relative;
+    display         : flex;
+    align-content   : center;
+    justify-content : center;
+}
+
+.checbox-premiums-line {
+    position        : relative;
+    display         : flex;
+    align-content   : center;
+    justify-content : center;
+    border-right    : 1px solid $color-border-gray;
+    padding-top     : 8px;
+}
+
+.checbox-premiums-line-no-line {
+    position        : relative;
+    display         : flex;
+    align-content   : center;
+    justify-content : center;
+    padding-top     : 8px;
+}
+
+.premiums-total-bonus {
+    @include title-color-size( $color-blue, $fonts-24 );
+    display         : flex;
+    align-content   : center;
+    justify-content : center;
+    background      : $color-header-gray;
+    font-weight     : bold;
+    padding         : 5px;
+    border-right   : 1px solid $color-border-gray;
+}
+
+.premiums-total-bonus-no-line {
+    @include title-color-size( $color-blue, $fonts-24 );
+    display         : flex;
+    align-content   : center;
+    justify-content : center;
+    background      : $color-header-gray;
+    font-weight     : bold;
+    padding         : 5px;
+}
+
+.premiums-total-bonus-line {
+    @include title-color-size( $color-blue, $fonts-24 );
+    display         : flex;
+    align-content   : center;
+    justify-content : center;
+    background      : $color-header-gray;
+    font-weight     : bold;
+    padding         : 5px;
+}
+
+.premiums-prices-container {
+    position        : relative;
+    display         : flex;
+    flex-direction  : row;
+    justify-content : center;
+    align-content   : center;
+    border-right    : 1px solid $color-border-gray;
+    @include title-color-size( $color-title, $fonts-15 );
+    padding-bottom  : 9px;
+}
+
+.premiums-prices-container-no-line {
+    position        : relative;
+    display         : flex;
+    flex-direction  : row;
+    justify-content : center;
+    align-content   : center;
+    @include title-color-size( $color-title, $fonts-15 );
+    padding-bottom  : 9px;
+}
+
+.premiums-prices {
+    left     : 3px;
+    position : relative;
+    @include title-color-size( $color-orange,  $fonts-14 );
+}
+
+.premiums-prices-container-line {
+    position       : relative;
+    display        : flex;
+    flex-direction : row;
+    justify-content: center;
+    align-content  : center;
+    border-right    : 1px solid $color-border-gray;
+    @include title-color-size( $color-title, $fonts-15 );
+}
+
+.premiums-prices-container-line > .premiums-prices {
+    left: 2px;
+    position: relative;
+    @include title-color-size( $color-orange,  $fonts-13 );
+}
+.premiums-total-bonus-space {
+    height       : 10px;
+    border-right : 1px solid #d5dae5;
+}
+
+.premiums-total-bonus-space-no-line {
+    height       : 10px;
+}

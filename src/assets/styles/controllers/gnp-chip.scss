@@ -1,0 +1,16 @@
+.title-subsection-chip {
+    position : relative;
+    right    : -20px;
+    top      : -21px;
+    @include title-color-size( $color-title, $fonts-16 );
+}
+
+.border-line {
+    height: 1px;
+    border: 0;
+    background-color: #c0c9d9;
+}
+
+.down{
+    top: 10px
+}

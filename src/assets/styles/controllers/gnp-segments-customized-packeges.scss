@@ -1,0 +1,60 @@
+.container-segments-customized-packeges {
+    max-width : 100%;
+}
+
+.segments-container-customized-title {
+    width          : 50%;
+    border-bottom  : 2px solid $color-orange;
+    position       : relative;
+    display        : flex;
+    flex-direction : initial;
+    align-items    : center;
+    height         : 53px;
+    @include title-color-size( $color-blue, $fonts-20 );
+}
+
+.title-customized-coverage {
+    width   : 50%;
+    display : flex;
+}
+
+.title-customized-coverage-sub {
+    width : 50%;
+}
+
+.title-customized-coverage-sub > div{
+    @include title-color-size( $color-blue-general  , $fonts-15 );
+    position   : relative;
+    left       : 10%;
+    text-align : initial;
+    margin-bottom: 3px;
+
+}
+
+.coverage-customized-sa {
+    width      : 50%;
+    display         : flex;
+    justify-content : center;
+    @include title-color-size( $color-title  , $fonts-14 );
+}
+
+.sub-coverage-customized-sa {
+    display         : flex;
+    justify-content : center;
+    width           : 50%;
+    text-align      : center;
+    @include title-color-size( $color-title  , $fonts-14 );
+}
+
+.container-customized-coverage {
+    width          : 100%;
+    padding-bottom : 0px;
+    padding-top    : 4px;
+    position       : relative;
+    display        : flex;
+    flex-direction : initial;
+    border-bottom  : 1px solid $color-header-gray;
+    align-content  : center;
+    align-items    : center;
+    padding-right  : 0px !important;
+}

@@ -1,0 +1,48 @@
+.combo-chip-width-label > span {
+    white-space: normal !important;
+}
+
+.combo-line-color > div:after{
+    border-bottom: 2px solid $color-orange-light !important;
+    margin-bottom: 4px;
+
+}
+.combo-line-color{
+    width: 100%;
+}
+.combo-line-color > div:before {
+    border-bottom: 1px solid $color-gray-light  !important;
+    margin-bottom: 4px;
+
+}
+
+.combo-line-color-error > div:before{
+    border-bottom: 1px solid $color-red  !important;
+    margin-bottom: 4px;
+
+}
+
+.combo-line-color-error > div:after{
+    border-bottom: 2px solid $color-orange-light !important;
+    margin-bottom: 4px;
+
+}
+
+.combo-arrows-orange > .css-1wy0on6 > div > svg{
+    color: $color-orange-light !important;
+
+}
+
+/*
+-webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+     transition: .3s all;
+
+
+.fer123456 > div > div:hover {
+    color: $color-orange-light !important;
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+} */

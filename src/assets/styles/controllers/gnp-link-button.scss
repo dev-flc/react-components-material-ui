@@ -1,0 +1,19 @@
+.text-link-button {
+    position    : relative;
+    color       : $color-blue;
+    font-size   : $fonts-15;
+    font-family : $avenir;
+    padding-left: 5px;
+    text-align  : justify;
+    padding-top : 3px;
+
+}
+
+.container-link-button {
+    position: relative;
+    display: flex;
+    flex-direction: initial;
+    align-content: center;
+    cursor      : pointer;
+}
+

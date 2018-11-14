@@ -1,0 +1,16 @@
+/*
+    tamaño y color de un titulo
+    parametros : ( color , tamaño de fuente )
+*/
+@mixin title-color-size( $color : $color-blue ,  $fonts-size : $fonts-24 ) {
+    color       : $color;
+    font-size   : $fonts-size;
+    font-family : $avenir;
+}
+
+@mixin background-stepper() {
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-size: contain;
+    background-position: center;
+}

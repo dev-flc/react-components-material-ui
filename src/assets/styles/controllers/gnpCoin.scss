@@ -1,0 +1,37 @@
+
+.coin-line-color{
+    width: 100% !important;
+}
+
+.coin-line-color > div:after{
+    border-bottom: 2px solid $color-orange-light !important;
+}
+
+.coin-line-color > div:before {
+    border-bottom: 1px solid $color-gray-light  !important;
+
+}
+.coin-line-color-error {
+    width: 100% !important;
+}
+.coin-line-color-error > div:after{
+    border-bottom: 2px solid $color-red !important;
+}
+
+.coin-line-color-error > div:before {
+    border-bottom: 1px solid $color-red !important;
+}
+
+.coin-line-color-error-chip > div:after{
+    border-bottom: 2px solid $color-red ;
+    width: 673px;
+}
+
+.coin-line-color-error-chip > div:before {
+    border-bottom: 1px solid $color-red ;
+    width: 673px;
+}
+
+.MuiFormControl-root-18 {
+    width: 100% !important;
+}

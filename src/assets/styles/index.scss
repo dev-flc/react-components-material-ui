@@ -1,0 +1,65 @@
+/* Variables Generales */
+@import "./variables-generales.scss";
+
+/* fuentes */
+@import "./fonts.scss";
+
+/* mixin */
+@import "./mixin.scss";
+
+/* clases comunes */
+@import "./commons.scss";
+
+/* controler gnp */
+@import "./controllers/gnpFooter.scss";
+@import "./controllers/gnpTextBox.scss";
+@import "./controllers/gnp-label.scss";
+@import "./controllers/gnpDatePicker.scss";
+@import "./controllers/gnpTextBoxPassword.scss";
+@import "./controllers/gnpSnackBar.scss";
+@import "./controllers/gnpButton.scss";
+@import "./controllers/gnpStepper.scss";
+@import "./controllers/gnp-error-404.scss";
+@import "./controllers/gnp-loader.scss";
+@import "./controllers/gnp-table.scss";
+@import "./controllers/gnpComboSearch.scss";
+@import "./controllers/gnpPhoneMask.scss";
+@import "./controllers/gnpCoin.scss";
+@import "./controllers/gnp-paper.scss";
+@import "./controllers/gnp-navbar.scss";
+@import "./controllers/gnp-search.scss";
+@import "./controllers/gnp-loading.scss";
+@import "./controllers/gnp-premiums-packeges.scss";
+@import "./controllers/gnp-segments-packeges.scss";
+@import "./controllers/gnp-premiums-customized-packeges.scss";
+@import "./controllers/gnp-segments-customized-packeges";
+@import "./controllers/gnp-checkbox.scss";
+@import './controllers/gnpFooter.scss';
+@import './controllers/gnpHeader.scss';
+@import './controllers/gnp-toast.scss';
+@import './controllers/gnp-chip.scss';
+@import "./controllers/gnp-loading-bar.scss";
+@import "./controllers/gnp-messages.scss";
+@import "./controllers/gnp-modal.scss";
+@import "./controllers/gnp-pager.scss";
+@import "./controllers/gnp-link-button.scss";
+/* modulos */
+@import "./modules/login-index.scss";
+@import "./modules/choose-index.scss";
+@import "./modules/quotation-index.scss";
+
+* {
+    box-sizing : border-box;
+}
+
+body {
+    padding : 0;
+    margin  : 0;
+}
+
+.allScreen{
+    display          : block;
+    width            : 100%;
+    height           : auto;
+    background-color : $color-black-light;
+}

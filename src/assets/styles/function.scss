@@ -1,0 +1,3 @@
+@function name-font-family-dos( $name-dos ){
+    @return url( "#{$url-font}#{$name-dos}" );
+}

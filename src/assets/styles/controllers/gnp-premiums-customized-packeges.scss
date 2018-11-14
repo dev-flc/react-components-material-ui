@@ -1,0 +1,27 @@
+.container-premiums-customized-title {
+    font-weight : normal;
+    font-size   : 25px;
+}
+
+.containers-premiums-customized {
+    position       : relative;
+    display        : flex;
+    flex-direction : initial;
+    align-content  : center;
+}
+
+.containers-premiums-customized-single {
+    width           : 50%;
+    align-content   : center;
+    justify-content : center;
+}
+
+.container-premiums-customized {
+    position        : relative;
+    display         : flex;
+    flex-direction  : column;
+    justify-content : center;
+    align-content   : center;
+    width           : 50%;
+    border-bottom   : 1px solid $color-border-gray;
+}
