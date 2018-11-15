@@ -8,7 +8,7 @@
     "build": "babel src -d --out-dir dist --copy-files",
     "clean": "rm -r dist && mkdir dist",
     "prodWindows": "npm run build",
-    "prodLinux": "npm run clean && npm run build"
+    "prodLinux": "npm run clean && npm run build && npm run development"
   },
   "repository": {
     "type": "git",

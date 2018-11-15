@@ -9,6 +9,7 @@ module.exports = env => {
             negocioProtegido :  [
                 "babel-polyfill" ,
                 path.resolve( __dirname, './example/index.js' ),
+                path.resolve( __dirname, './example/style/index.scss' ),
             ]
         },
 

@@ -76,13 +76,14 @@ class GnpTextFieldCoin extends Component {
         return (
             <div>
                 <div>
-                    <span className="gnp-text-box-font-14">{this.props.title}</span>&nbsp;<span style={this.props.required ? styles.visible : styles.invisible} className="asterisco-red">*</span>
+                    <span className = { classes.textBoxFont }>{ this.props.title } </span>&nbsp;<span style={this.props.required ? styles.visible : styles.invisible} className={classes.asteriscoRed}>*</span>
                 </div>
+
 
                 <Input
                     type ='number'
                     name = {this.props.controlName}
-                    className={ this.props.textError ? "phoneMask-line-color-error" : "phoneMask-line-color"}
+                    className={ this.props.textError ? classes.phoneMaskLineColorError : classes.phoneMaskLineColor}
                     style={styles.inputText}
                     id={this.props.id}
                     value={ value }

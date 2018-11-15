@@ -29,14 +29,14 @@ class Example extends Component {
                     id           = "coin"
                     type         = { "C" }
                     controlName  = { "NAME" }
-                    title        = { "title" }
+                    title        = { "Titulo del negocio" }
                     required     = { true }
                     value        = { 1 }
                     icon         = '%'
                     min          = { 1 }
                     max          = { 10 }
                     handleChange = { ( event, propertyNameError, value, type, title, controlName, id ) => this.handleChangeNumberFormat( event, propertyNameError, value, type, title, controlName, id ) }
-                    textError    = { "errorCajones" }
+                    textError    = { "" }
                     propertyNameError = { "error" }
                     nextControlTab    = "r_rb-acomodadores"
                     onBlurPressPage   = { ( event, propertyNameError, value, type, title ) => this.handlerChangeFocus( event, propertyNameError, value, type, title ) }
