@@ -26,9 +26,10 @@ const styles = {
         left        : 39,
         fontFamily  : "Avenir-Book",
         fontSize    : 15,
-        top         : 2
     },
     container : {
+        display    : "flex",
+        alignItems : "center"
     },
 };
 

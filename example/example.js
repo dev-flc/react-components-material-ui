@@ -21,10 +21,9 @@ class Example extends Component {
         	<div>
                 <h1> Example Validations</h1>
                 <GnpButton />
-                <GnpCheckBox
-                        label = "example"
-                    />
-
+                <br/>
+                <GnpCheckBox label = "Example" />
+                <br/>
                  <GnpTextFieldCoin
                     id           = "coin"
                     type         = { "C" }
@@ -42,6 +41,8 @@ class Example extends Component {
                     onBlurPressPage   = { ( event, propertyNameError, value, type, title ) => this.handlerChangeFocus( event, propertyNameError, value, type, title ) }
                     // executeFunctionOnEnter={() => this.setState({ acomodadoresIndex: true })}
                 />
+                <br/>
+
         	</div>
         );
     }
